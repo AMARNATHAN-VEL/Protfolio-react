@@ -1,0 +1,86 @@
+/* Project Part */
+.projects {
+  width: 80%;
+  margin: auto;
+  padding: 10vw 0;
+}
+.projects__sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 5% 0;
+}
+.project__title,
+.project__desc {
+  text-align: center;
+}
+.project__desc {
+  width: 70%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Project Card Section */
+.card {
+  border: 2px solid var(--BG-COLOR);
+  padding: 20px;
+  color: var(--TEXT-COLOR2);
+  background-color: var(--BG-COLOR);
+  border-radius: 20px;
+}
+.card:hover {
+  border: 2px solid var(--TEXT-COLOR2);
+  box-shadow: 0 0 40px var(--BG-COLOR);
+}
+
+/* Card title */
+.card__title {
+  text-align: center;
+}
+
+/* Card Image */
+.card__img {
+  width: 95%;
+  margin: 20px auto;
+  border: 1px solid;
+}
+.card__img img {
+  display: block;
+  width: 90%;
+  padding: 20px 0;
+  margin: auto;
+}
+
+/* Card Description */
+.card__desc {
+  text-align: justify;
+  padding: 30px;
+}
+
+/* Card Skills */
+.card__skills {
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding: 20px 0;
+}
+
+/* Card links */
+.card__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.card__links li {
+  color: var(--TEXT-COLOR);
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 3px 6px;
+}
+.card__links li:hover {
+  color: var(--BG-COLOR);
+  border: 1px solid var(--TEXT-COLOR);
+  background-color: var(--TEXT-COLOR);
+  box-shadow: 0 0 5px var(--TEXT-COLOR);
+}

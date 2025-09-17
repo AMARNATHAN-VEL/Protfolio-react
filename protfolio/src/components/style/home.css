@@ -1,0 +1,79 @@
+/* Hero part */
+main {
+  color: var(--BG-COLOR);
+  background-color: var(--BG-COLOR2);
+}
+
+.hero {
+  width: 80%;
+  min-height: 100vh;
+  margin: auto;
+  padding: 10% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left part */
+.hero__left {
+  width: 55%;
+}
+.hero__left h1 {
+  font-size: 6vmin;
+}
+/* frontend name animation */
+.hero__sub-title {
+  color: var(--BG-COLOR);
+  text-shadow: 0px 0px 5px var(--BG-COLOR);
+  font-size: 4vmin;
+  width: 25ch;
+  text-wrap: onwrap;
+  overflow: hidden;
+  animation: typing 3s steps(25) infinite alternate-reverse;
+}
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+}
+/* ----- */
+.hero__left p {
+  text-align: justify;
+  padding: 25px 0;
+}
+.hero__buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.hero__btn-link {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: var(--BG-COLOR);
+  color: var(--TEXT-COLOR);
+  border-radius: 10px;
+}
+.hero__btn-link:hover {
+  background-color: var(--TEXT-COLOR);
+  color: var(--BG-COLOR);
+  box-shadow: 0 0 20px var(--BG-COLOR);
+}
+
+/*  Right part */
+.hero__right {
+  width: 40%;
+}
+.hero__img img {
+  display: block;
+  border-radius: 50%;
+  width: 100%;
+}
+.hero__img {
+  border: 3px solid var(--BG-COLOR);
+  border-radius: 50%;
+}
+.hero__img img:hover {
+  border-radius: 50%;
+  box-shadow: 0 0 50px var(--BG-COLOR);
+}
