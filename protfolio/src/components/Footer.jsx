@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer class="footer">
       <section class="footer__sec">
-        <p>&copy; 2025 Amarnathan V. All Rights Reserved.</p>
+        <p>&copy; 2025 Amarnathan V.</p>
       </section>
     </footer>
   );
