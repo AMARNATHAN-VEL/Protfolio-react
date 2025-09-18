@@ -4,7 +4,7 @@ import Resume from "../assets/Amarnathan_V_Resume.pdf"
 
 const AboutMe = () => {
   return (
-    <section id="aboutme" className="aboutme">
+    <section className="aboutme">
       <section className="aboutme__con">
         <h2>
           <i className="fa-solid fa-circle-user"></i> ABOUT ME

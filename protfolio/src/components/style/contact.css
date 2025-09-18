@@ -2,10 +2,12 @@
 .contact {
   background-color: var(--BG-COLOR);
   color: var(--TEXT-COLOR2);
-  padding: 10vw;
+  padding: 15vw;
+  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 .contact__sec {
-  width: 80%;
+  width: 78%;
   margin: auto;
   display: flex;
   flex-direction: column;

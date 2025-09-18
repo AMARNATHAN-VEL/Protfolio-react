@@ -2,6 +2,7 @@
 .aboutme {
   background-color: var(--BG-COLOR);
   color: var(--TEXT-COLOR2);
+  min-height: 100vh;
 }
 .aboutme__con {
   padding: 10% 0;

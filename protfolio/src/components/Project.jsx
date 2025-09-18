@@ -4,7 +4,7 @@ import Project1 from "../assets/Portfolio.png";
 const Project = () => {
   return (
     <main>
-      <section id="projects" class="projects">
+      <section class="projects">
         <h2 class="project__title">
           <i class="fa-solid fa-check-to-slot"></i> MY PROJECTS
         </h2>
